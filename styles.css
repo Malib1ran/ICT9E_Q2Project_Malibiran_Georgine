@@ -1,0 +1,92 @@
+.PG {
+	background-image: linear-gradient(
+	to right,
+	rgb(188, 244, 222),
+	rgb(244, 188, 210)
+	) ;
+	text-align: center;
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.intro {
+	  font-family: "Roboto Condensed", sans-serif;
+  	font-optical-sizing: auto;
+  	font-style: normal;
+  	background-color: rgb(216, 240, 216);
+  	text-align: center;
+  	border: 3px dotted rgb(26, 43, 26);
+  	color: darkolivegreen;
+  	padding: 20px;
+  	margin: 10px;
+}
+
+.desc {
+	background-color: rgb(244, 188, 210);
+	background-
+	color: rgb(54, 117, 108);
+	width: 200px;
+	height: 200px;
+  	font-family: "Roboto Condensed", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-style: normal ;
+	padding:10px;
+	width: 400px;
+  	height: 400px;
+  	flex-direction:column;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+ }
+
+.places {
+	text-align: center;
+  	display:flex;
+  	flex-wrap:wrap;
+  	justify-content: center;
+  	column-gap:20px;
+  	row-gap:20px;
+  	padding: 20px;
+  	margin: 10px;
+}
+
+header {
+	border-bottom: 5px dotted rgb(79, 91, 112);
+	border-top: 5px dotted rgb(79, 91, 112);
+}
+h2 {
+	text-align: center;
+}
+
+body {
+	background-image: url(https://i.pinimg.com/1200x/ea/10/a0/ea10a064a91301d638120f5aee5fcd6e.jpg) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.img {
+	display: flex;
+  	object-fit:cover;
+  	padding: 10px;
+  	background-color: rgb(244, 188, 210);
+  	opacity: 0.8;
+  	margin: 10px;
+}
+
+.img:hover {
+	opacity: 1;
+}
+
+footer {
+	background-color: rgb(252, 222, 234);
+	border: 5px dotted rgb(97, 79, 86);
+}
+
+a {
+	color: rgb(40, 38, 148);
+}
+
+a:hover {
+	color: rgb(137, 55, 196);
+}
